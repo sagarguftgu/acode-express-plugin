@@ -1,0 +1,10 @@
+{
+  "id": "acode-express-plugin",
+  "name": "Acode Express Helper",
+  "version": "1.0.0",
+  "description": "Autocomplete, autosuggestion and snippets for Express and common Node.js backend packages to speed up coding in Acode.",
+  "author": "sagarguftgu",
+  "main": "main.js",
+  "type": "acode_plugin",
+  "acode_version": "1.12.6"
+}
