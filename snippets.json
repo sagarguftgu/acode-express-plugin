@@ -1,0 +1,14 @@
+{
+  "expressApp": {
+    "description": "Basic Express app scaffold",
+    "body": "const express = require('express');\nconst app = express();\napp.use(express.json());\n\napp.get('/', (req, res) => {\n  res.send('Hello World');\n});\n\napp.listen(3000, () => console.log('Server started on 3000'));"
+  },
+  "route": {
+    "description": "Express route handler",
+    "body": "app.${METHOD}('${PATH}', async (req, res, next) => {\n  try {\n    // TODO\n    res.json({});\n  } catch (err) { next(err); }\n});"
+  },
+  "router": {
+    "description": "Express Router scaffold",
+    "body": "const express = require('express');\nconst router = express.Router();\n\nrouter.get('/', (req, res) => res.send('ok'));\n\nmodule.exports = router;"
+  }
+}
